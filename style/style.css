@@ -335,6 +335,28 @@ dt{
   text-align: justify;
 }
 
+@media screen and (max-width: 800px){
+  .menu a{
+    width: auto;
+    padding: 10px;
+  }
+
+  .menu{
+    justify-content: space-around;
+  }
+
+  .menu2 a{
+    width: auto;
+    padding: 10px;
+  }
+
+  .menu2{
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+}
+
 @media screen and (min-width: 800px){
   .contenido-img img{
     object-fit: fill;
