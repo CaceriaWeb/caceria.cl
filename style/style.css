@@ -1,0 +1,382 @@
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-Regular.otf)
+  format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-RegularItalic.otf)
+  format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-Bold.otf)
+  format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-BoldItalic.otf)
+  format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-Light.otf)
+  format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-Thin.otf)
+  format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-DemiBold.otf)
+  format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-ExtraBold.otf)
+  format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-LightItalic.otf)
+  format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-ThinItalic.otf)
+  format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-DemiBoldItalic.otf)
+  format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Addington';
+  src: url(../fonts/AddingtonCF-ExtraBoldItalic.otf)
+  format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nimbus';
+  src: url(../fonts/NimbusSanL-Reg.otf)
+  format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nimbus';
+  src: url(../fonts/NimbusSanL-RegIta.otf)
+  format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nimbus';
+  src: url(../fonts/NimbusSanL-Bol.otf)
+  format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nimbus';
+  src: url(../fonts/NimbusSanL-BolIta.otf)
+  format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1{
+  font-family: 'Nimbus';
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h2{
+  font-family: 'Nimbus';
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-family: 'Addington';
+  font-weight: normal;
+}
+
+img{
+  border: 2px solid black;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.header h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+}
+
+.numero-inicio {
+  display: flex;
+  justify: center;
+  flex-direction: column;
+}
+
+.numero-inicio h2,h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.numero-inicio h3{
+  font-family: 'Addington';
+  font-weight: 100;
+  font-style: italic;
+}
+
+dl{
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+dd{
+  font-family: 'Addington';
+  text-align: center;
+  margin:0;
+  font-size: 1.5em;
+}
+
+dt{
+  font-family: 'Nimbus';
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+}
+
+.indice{
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  width: 90%;
+  margin-left: 1.5%;
+  margin-right: 5%;
+}
+
+.indice-caja{
+  background-image: url(../images/Felipeindice.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  padding: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.menu a{
+  width: 33%;
+  font-family: 'Nimbus';
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  transition: .2s;
+}
+
+.menu a:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.menu2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.menu2 a{
+  width: 50%;
+  font-family: 'Nimbus';
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  transition: .2s;
+}
+
+.menu2 a:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.footer{
+  margin-top: 10%;
+}
+
+.contenido p{
+  text-align: justify;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.contenido h3{
+  font-family: 'Nimbus';
+  font-style: normal;
+}
+
+.editor h4{
+  font-family: 'Addington';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.editor p{
+  font-family: 'Addington';
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.editor img{
+  width: 30%;
+  object-fit: cover;
+  height: 300px;
+  margin-left: 15%;
+}
+
+.contenido-img{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.contenido-img img{
+  object-fit: fill;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.contenido-img p{
+  text-align: justify;
+}
+
+@media screen and (min-width: 800px){
+  .contenido-img img{
+    object-fit: fill;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+
+  .editor p{
+    width: 30%;
+  }
+}
+
+  .contenido a{
+    font-family: 'Addington';
+    font-style: italic;
+    font-weight: 100;
+    color: #B5742D;
+  }
+
+  .revista {
+    border: none;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+
+
+  .editor h3{
+    font-family: 'Addington';
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  ul {
+    font-family: 'Addington';
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
